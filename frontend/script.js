@@ -5,12 +5,12 @@ function atualizar() {
     elementoContador.textContent = valorAtual
 
     if(valorAtual < 0) {
-        elementoContador.style.color = '#1cd8dffb'
+        elementoContador.style.color = '#f70909fb'
 }   else if(valorAtual > 0) {
-        elementoContador.style.color = '#6818e9fb'
+        elementoContador.style.color = '#03ec2afb'
 }   else {
-   }   elementoContador.style.color = '#000000'
-}
+      elementoContador.style.color = '#000000e1'
+}}
 
 function diminuir() {
     valorAtual--

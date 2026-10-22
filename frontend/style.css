@@ -7,31 +7,36 @@ body{
     height: 100vh;
     margin: 0;
 }
+
 .card{
     background-color: #fff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(19, 0, 102, 0.1);
+    box-shadow: 0 4px 8px rgba(56, 42, 117, 0.1);
     text-align: center;
     width: 300px;
 
 }
+
 h1{
-    color: #02000a;
+    color: #000000;
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
+
 #contador{
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #02000a;
+    color: #010005;
 }
+
 .botoes{
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
+
 button{
     flex: 1;
     padding: 10px;
@@ -46,15 +51,15 @@ button{
 button:hover{
     opacity: 0.8;
 }
-#btn-menos{
-    background-color: #ff4d4d;
+btn-menos{
+    background-color: #da0909;
     color: #fff;
 }
-#btn-aumentar{
+btn-aumentar{
     background-color: #4CAF50;
     color: #fff;
 }
-#btn-zerar{
-    background-color: #da0dbe;
+btn-zerar{
+    background-color: #000000;
     color: #fff;
 }
